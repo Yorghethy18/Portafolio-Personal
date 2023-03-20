@@ -13,6 +13,7 @@ header {
 header h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 header p {
@@ -46,9 +47,39 @@ footer {
     color: white;
     padding: 15px;
     opacity: .85;
+    width: 100%;
   }
 
   .img-left {
     float: left;
     margin-right: 30px; /* para dejar un pequeño espacio entre la imagen y el texto */
   }
+
+
+  /*nav {
+    background-color: #333;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    background-color: #555;
+  }
+  
+  nav .active {
+    background-color: #555;
+  }
+  
+  nav a {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #ff0;
+    transform: scale(1.1);
+  }*/
+  
